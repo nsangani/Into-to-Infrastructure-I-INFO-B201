@@ -1,0 +1,9 @@
+1. a) """str -> str """
+b) """number -> float"""
+c) """Counts the number of repeated second string in the first string
+	and returns an integer
+	str -> int """
+d) """ str_1 is a string and str_2 (or you can name num_1) is an integer. 
+	Multiply str_1 str_2 times. 
+	str,int -> str
+

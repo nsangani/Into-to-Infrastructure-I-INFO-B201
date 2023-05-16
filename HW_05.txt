@@ -1,0 +1,39 @@
+# (a)Global variable - defined outside of function
+
+Def add(y):
+  return s
+s = "I love hw....or do I?"
+print(add())
+
+(c)Output: I love hw....or do I? [Here add function is empty therefore looks
+				 for result in global variable 's']
+
+# (b)Local variable - defined inside function (temporary frame)
+
+Def add(y):
+  s = "I guess I'll do my hw"  
+  return s
+
+s = "I love hw....or do I?"
+print(add())
+
+(c)Output: I guess I'll do my hw [Here 's' is retrieved from local variable 
+				since it is defined]
+
+a. global 
+b. local
+c. output
+
+1) a. X = 99   
+   b. Z = X + Y
+   c. 100
+	
+2) a. R = 9 
+   b. Z = X + Y
+   c. 81
+
+3) a. N1 = 9, N2 = 30
+   b. Z = X, X = Y, Y =Z
+   c. 30,9
+
+
